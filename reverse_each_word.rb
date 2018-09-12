@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   array.each do |letter|
     output.push(letter)
   end
-  return output
+  return output.split("")
 end
