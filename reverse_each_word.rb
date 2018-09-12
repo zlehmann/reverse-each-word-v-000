@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
   output = []
-  sentence.split("").map { |letter| output.push(letter) }
+  sentence.each_char { |chr| output.push(chr) }
   return output
 end
