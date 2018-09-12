@@ -1,7 +1,8 @@
 def reverse_each_word(sentence)
+  array = sentence.chars
   output = []
-  sentence.each do |letter|
-    output << letter
+  array.each do |letter|
+    output.push(letter)
   end
-  return output.to_s()
+  return output
 end
